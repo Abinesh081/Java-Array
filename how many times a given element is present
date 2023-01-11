@@ -19,6 +19,8 @@ int count= 0;
 		System.out.println(marks[count] + " "+(count));
 }
 }
-		
+	
+OUTPUT :
+100 3
 		
 		

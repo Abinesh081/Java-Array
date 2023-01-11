@@ -1,0 +1,24 @@
+public class Array 
+{
+public static void main(String[] args) 
+{
+Array lb = new Array();
+lb.elements_present();
+}
+private void elements_present() 
+{
+int[] marks = {90,80, 100, 100, 100, 43};
+int count= 0;
+	for(int i=0;i<marks.length;i++)
+		{
+			if(marks[i] == 100)
+		{
+			count++;
+		}
+	  }
+		System.out.println(marks[count] + " "+(count));
+}
+}
+		
+		
+		
